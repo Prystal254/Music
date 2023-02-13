@@ -1,0 +1,47 @@
+.text-image{
+    background-color: $bg;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    @media (max-width:1400px){
+        padding: 50px 40px;
+    }
+    @media (max-width:950px){
+        padding: 30px 20px 50px;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 1400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        @media (max-width:950px){
+            display: block;
+            text-align: center;
+        }
+        .text{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #FFFFFF;
+            padding-right: 50px;
+            @media (max-width:1400px){
+                font-size: 16px;
+            }
+            @media (max-width:950px){
+                padding: 0px;
+            }
+        }
+        .image{
+            img{
+                @media (max-width:950px){
+                    padding: 0px;
+                
+                    max-width: 600px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

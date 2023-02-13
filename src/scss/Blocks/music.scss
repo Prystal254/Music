@@ -1,0 +1,87 @@
+.music{
+    background-color: #070A20;
+    @media (max-width:1050px){
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    .align{
+        max-width: 1050px;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 00px 0px;
+            .music-container{
+                padding: 20px 0px;
+                width: calc(33%);
+                @media (max-width:1020px){
+                    width: calc(50%);
+                }
+                @media (max-width:720px){
+                    width: calc(100%);
+                }
+                .song-container{
+                    display: flex;
+                    align-items: center;
+                    .play-button{
+                        padding-right: 30px;
+                        @media (max-width:768px){
+                            padding-right: 15px;
+                        }
+                        img{
+                        box-shadow: 0px 0px 10px #0564BF;
+                        border-radius: 50%;
+                        }
+                    }
+                    .text-container{
+                        .name{
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 25px;
+                            line-height: 100%;
+                            color: white;
+                            @media (max-width:768px){
+                                font-size: 20px;
+                            }
+                        }
+                        span{
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 100%;
+                            text-align: center;
+                            color: rgba(255, 255, 255, 0.5);
+                        }
+                        .song{
+                            color: white;
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 100%;
+                            margin-top: 10px;
+                            
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .link-container{
+            a{
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.5);
+                text-decoration: none;
+                
+            }
+        }
+    }
+}

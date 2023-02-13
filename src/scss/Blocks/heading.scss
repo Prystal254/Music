@@ -1,0 +1,37 @@
+.heading-container{
+    background-color: #070A20;
+    @media (max-width:1400px){
+        padding: 50px 40px;
+    }
+    @media (max-width:768px){
+        padding: 20px 20px;
+    }
+    .heading{
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 46px;
+        line-height: 100%;
+        padding-bottom: 20px;
+        color: #FFFFFF;
+        text-align: center;
+        @media(max-width:768px){
+           font-size: 35px;
+           padding-top: 30px;
+        }
+    }
+    .sub-heading{
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+        @media(max-width:768px){
+            font-size: 14px;
+
+        }
+    }
+}

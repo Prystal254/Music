@@ -1,0 +1,160 @@
+.main-banner{
+    background-color: #070A20;
+    padding-bottom: 50px;
+    .align{
+        max-width: 1700px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        @media(max-width:1100px){
+            display: block;
+        }
+        .image-container{
+            @media(max-width:1100px){
+                text-align: center;
+                padding-top: 30px;
+            }
+            
+            .image{
+                img{
+                    @media(max-width:1700px){
+                        width: 800px;
+                    }
+                    @media(max-width:1400px){
+                        width: 700px;
+                    }
+                    @media(max-width:1200px){
+                        width: 600px;
+                    }
+                    @media(max-width:1000px){
+                        width: 500px;
+                    }
+                    @media(max-width:500px){
+                        width: 400px;
+                    }
+                    @media(max-width:400px){
+                        width: 280px;
+                    }
+                }
+            }
+        }
+        .text-container{
+            padding-left: 100px;
+            @media(max-width:1700px){
+                padding-right: 40px;
+            }
+            @media(max-width:1100px){
+                padding-top: 30px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            @media(max-width:768px){
+                padding-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .heading{
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 100%;
+                color: #FFFFFF;
+                @media(max-width:1250px){
+                    font-size: 50px;
+                }
+                @media(max-width:768px){
+                    font-size: 40px;
+                }
+            }
+            .text{
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FFFFFF;
+                @media(max-width:768px){
+                    font-size: 14px;         
+                }
+            }
+            .sub-heading{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF;
+                @media(max-width:767px){
+                    font-size: 16px;  
+                }
+            }
+            .wrap{
+                padding: 40px 00px 0px;
+                position: relative;
+                &:before{
+                    content: '';
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    filter: blur(20px);
+                    background: linear-gradient(180deg, rgba(255, 99, 71, 0) 0%, #000 150%);
+                }   
+                .music-container{
+                    padding: 20px 0px;
+
+                    @media (max-width:1020px){
+
+                    }
+                    @media (max-width:720px){
+
+                    }
+                    .song-container{
+                        display: flex;
+                        align-items: center;
+                        .play-button{
+                            padding-right: 30px;
+                            img{
+                            box-shadow: 0px 0px 10px #0564BF;
+                            border-radius: 50%;
+                            }
+                        }
+                        .play-text-container{
+                            .name{
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 900;
+                                font-size: 25px;
+                                line-height: 100%;
+                                color: white;
+                                @media(max-width:767px){
+                                    font-size: 20px;  
+                                }
+                            }
+                            span{
+                                font-family: 'Nunito Sans';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 100%;
+                                text-align: center;
+                                color: rgba(255, 255, 255, 0.5);
+                            }
+                            .song{
+                                color: white;
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 100%;
+                                margin-top: 10px;
+                                
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.author-card{
+    background-color: #070A20;
+   .align{ 
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+        .card{
+            @media (max-width:768px){
+
+            }
+            @media (max-width:1400px){
+
+            }
+            .card-container{
+                background: rgba(7, 10, 32, 0.9);
+                border-radius: 20px;
+                display: flex;
+                padding: 30px 30px;
+                margin-bottom: 50px;
+                &:last-child{
+                    margin-bottom: 0px;
+                    padding-bottom: 50px;
+                }
+                @media (max-width:768px){
+                    display: block;
+                    text-align: center;
+                    margin-bottom: 0px;
+                }
+                .image-container{
+                    .card-image{
+                        box-shadow: 0px 0px 40px #0564BF;
+                        border-radius: 20px;
+                        @media (max-width:768px){
+                            width: 100%;
+                            max-width: 193px;
+                        }
+                    }
+                }
+                
+                .card-text-container{
+                    margin-left: 70px;
+                    @media (max-width:900px){
+                        margin-left: 15px;
+                    }
+                    @media (max-width:768px){
+                        margin-left: 0px;
+                    }
+                    .name{
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: 900;
+                        font-size: 25px;
+                        color: #fff;        
+                        line-height: 100%;
+                    }
+                    .author{
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%; 
+                        color: #fff;
+                        margin-top: 10px;        
+                    }
+                    .button-container{
+                        padding-top: 60px;
+                        display: flex;
+                        align-items: center;
+                        padding-right: 25px;
+                        @media (max-width:768px){
+                        padding-top: 20px;
+                        justify-content: center;
+                        }
+                        .play{
+                            padding-right: 20px;
+                            img{
+                                box-shadow: 0px 0px 10px #0564BF;
+                                border-radius: 50%;
+                            }
+                        }
+                        .buy{
+                            background: #FFFFFF;
+                            box-shadow: -1px 5px 11px rgba(5, 100, 191, 0.81);
+                            border-radius: 4px;
+                            padding: 10px 30px;
+                            color: black;
+                            text-decoration: none;
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 14px;
+                            line-height: 17px;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+            .icon-container{
+                .social-container{
+                    display: flex;
+                    justify-content: end;
+                    padding-bottom: 30px;
+                    @media (max-width:768px){
+                        padding-bottom: 0px;
+                    }
+                    @media (max-width:768px){
+                        justify-content: center;
+                        margin-top: 20px;
+                    }
+                    .socials{
+                        margin-left: 16px;
+                        @media (max-width:768px){
+                            margin-right: 16px;
+                            margin-left: 0px;
+                        }
+                    }
+                    
+                }
+                .sound-waves{
+                    @media (max-width:1150px){
+                        padding-top: 40px;
+                    }
+                    @media (max-width:767px){
+                        padding-top: 0px;
+                    }
+                    img{
+                        @media (max-width:1400px){
+                            max-width: 877px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
