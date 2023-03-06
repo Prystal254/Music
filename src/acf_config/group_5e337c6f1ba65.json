@@ -18,7 +18,7 @@
             "layouts": {
                 "layout_608315650c88c": {
                     "key": "layout_608315650c88c",
-                    "name": "Fullwidth_text",
+                    "name": "fullwidth_text",
                     "label": "Fullwidth Text",
                     "display": "block",
                     "sub_fields": [
@@ -447,6 +447,99 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_63eac9e36a4b0": {
+                    "key": "layout_63eac9e36a4b0",
+                    "name": "video_section",
+                    "label": "Video Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63eac9ef6a4b1",
+                            "label": "field",
+                            "name": "field",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63eac92b74962"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63f924ca3bb9c": {
+                    "key": "layout_63f924ca3bb9c",
+                    "name": "music_banner",
+                    "label": "Music Banner",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63f924d53bb9d",
+                            "label": "field",
+                            "name": "field",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63f9248b47646"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_63fd0569750fd": {
+                    "key": "layout_63fd0569750fd",
+                    "name": "video_banner",
+                    "label": "Video Banner",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63fd0570750fe",
+                            "label": "field",
+                            "name": "field",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_63fd05360c218"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Block",
@@ -482,5 +575,5 @@
     ],
     "active": 1,
     "description": "Block Chooser for all content types that will have blocks.",
-    "modified": 1672179711
+    "modified": 1677526404
 }

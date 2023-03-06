@@ -16,6 +16,7 @@
   centerMode: true,
   centerPadding: '10px',
   slidesToShow: 3,
+  variableWidth: true,
   responsive: [
     {
       breakpoint: 1200,
@@ -31,6 +32,7 @@
       settings: {
         arrows: false,
         centerMode: true,
+        variableWidth: false,
         centerPadding: '40px',
         slidesToShow: 1
       }

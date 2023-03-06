@@ -30,9 +30,8 @@
                         @media (max-width:768px){
                             padding-right: 15px;
                         }
-                        img{
-                        box-shadow: 0px 0px 10px #0564BF;
-                        border-radius: 50%;
+                        .play{
+                            color: #FFFFFF;
                         }
                     }
                     .text-container{
@@ -46,15 +45,15 @@
                             @media (max-width:768px){
                                 font-size: 20px;
                             }
-                        }
-                        span{
-                            font-family: 'Nunito Sans', sans-serif;
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 12px;
-                            line-height: 100%;
-                            text-align: center;
-                            color: rgba(255, 255, 255, 0.5);
+                            span{
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 100%;
+                                text-align: center;
+                                padding-left: 10px;
+                            }
                         }
                         .song{
                             color: white;

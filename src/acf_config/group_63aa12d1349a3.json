@@ -3,7 +3,7 @@
     "title": "dual image",
     "fields": [
         {
-            "key": "field_63aa12d8d5290",
+            "key": "field_63f962843a67c",
             "label": "Large Image",
             "name": "large_image",
             "type": "image",
@@ -27,7 +27,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_63aa12ecd5291",
+            "key": "field_63f962913a67d",
             "label": "Small Image",
             "name": "small_image",
             "type": "image",
@@ -68,5 +68,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1672090359
+    "modified": 1677523335
 }

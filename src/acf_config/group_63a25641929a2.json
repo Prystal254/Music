@@ -114,6 +114,50 @@
                 "id": ""
             },
             "return_format": "array"
+        },
+        {
+            "key": "field_63f7d81f411cb",
+            "label": "Music Relations",
+            "name": "music_relations",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "product"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "elements": [
+                "featured_image"
+            ],
+            "min": "",
+            "max": "",
+            "return_format": "object"
+        },
+        {
+            "key": "field_63f7d850411cc",
+            "label": "Album Link",
+            "name": "album_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
         }
     ],
     "location": [
@@ -133,5 +177,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1671664214
+    "modified": 1677187256
 }

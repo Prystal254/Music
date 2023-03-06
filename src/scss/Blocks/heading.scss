@@ -1,5 +1,7 @@
 .heading-container{
     background-color: #070A20;
+    max-width: 1400px;
+    margin: 0 auto;
     @media (max-width:1400px){
         padding: 50px 40px;
     }
@@ -19,18 +21,25 @@
            font-size: 35px;
            padding-top: 30px;
         }
+        @media(max-width:567px){
+           font-size: 24px;
+           padding-top: 30px;
+        }
+
     }
     .sub-heading{
         font-family: 'Nunito Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
+        line-height: 24px;
         line-height: 100%;
         text-align: center;
         color: #FFFFFF;
         padding-bottom: 20px;
         @media(max-width:768px){
             font-size: 14px;
+            line-height: 20px;
 
         }
     }

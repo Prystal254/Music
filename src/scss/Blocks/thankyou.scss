@@ -1,0 +1,144 @@
+.woocommerce-order-received {
+    .woocommerce{
+        .woocommerce-order{
+            padding-top: 25px;
+            p{
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+            }
+            ul{
+                display: flex;
+                margin-top: 25px;
+                li{
+                    flex: 0 0 15%;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    @media screen and (max-width:991px) {
+                        flex: 0 0 10%;
+                        font-size: 12px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            .woocommerce-order-details{
+                margin-top: 25px;
+                border-top: 1px solid #FFFFFF;
+                padding-top: 50px;
+                h2{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                table{
+                    margin-top: 15px;
+                    thead{
+                        tr{
+                            th{
+                                border-bottom: 1px solid #FFFFFF;
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            td{
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                                a{
+                                    color: #0564BF;
+                                }
+                            }
+                        }
+                    }
+                    tfoot{
+                        tr{
+                            th{
+                                border-top: 1px solid #FFFFFF;
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                            }
+                            td{
+                                border-top: 1px solid #FFFFFF;
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+            .woocommerce-customer-details{
+                .col2-set{
+                    .col-1{
+                        h2{
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            border-bottom: 1px solid #FFFFFF;
+                            padding-bottom: 5px;
+                        }
+                        address{
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            p{
+
+                            }
+                        }
+                    }
+                    .col-2{
+                        h2{
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            border-bottom: 1px solid #FFFFFF;
+                            padding-bottom: 5px;
+                        }
+                        address{
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            p{
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.woocommerce{
+    margin: 100px auto 0px !important; 
+}
+.page-template-default.page.page-id-301.logged-in.admin-bar.no-customize-support.all.theme-xander.woocommerce-checkout.woocommerce-page.woocommerce-order-received.woocommerce-no-js{
+    overflow: hidden;
+}

@@ -1,0 +1,56 @@
+.video{
+    background: #070A20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+    padding-top: 60px;
+    .video-container{
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 10px;
+        @media screen and (max-width: 991px) {
+            flex-direction: column;
+        }
+        .card-wrap{
+            width: 32%;
+            margin-bottom: 30px;
+            @media screen and (max-width: 991px) {
+               width: 100%;
+            }
+            .frame-wrap{
+                box-shadow: 0px 0px 40px #0564bf;
+                margin-bottom: 10px;
+                iframe{
+                    width: 100%;
+                }
+            }
+            .text-wrap{
+                .title-wrap{
+                    margin-bottom: 20px;
+                    h4{
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-weight: 900;
+                        font-size: 25px;
+                        line-height: 100%;
+                        color: #FFFFFF;
+                        margin: 0;
+                    }
+                }
+                .subtext-wrap{
+                    p {
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 120%;
+                        color: #FFFFFF;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -59,6 +59,15 @@
                                       case 'music_field':
                                         include 'blocks/soical-icons.php';
                                         break;
+                                        case 'video_section':
+                                          include 'blocks/video-section.php';
+                                          break;
+                                          case 'music_banner':
+                                            include 'blocks/music_banner.php';
+                                            break;
+                                            case 'video_banner':
+                                              include 'blocks/video_banner.php';
+                                              break;
             
           }
         }

@@ -1,0 +1,399 @@
+.woocommerce .col2-set, .woocommerce-page .col2-set{
+    width: unset;
+}
+
+.woocommerce-account{
+    .col2-set{
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        color: #FFFFFF;
+        padding: 0 20px;
+        @media screen and (max-width:991px){
+            flex-direction: column;
+        }
+        .col-1{
+            width: 45% !important;
+            float: none;
+            @media screen and (max-width:991px){
+                width: 100% !important;
+                margin-bottom: 80px;
+            }
+            h2{
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                color: #FFFFFF;
+                font-size: 28px;
+                line-height: 34px;
+                margin-bottom: 30px;
+
+            }
+            .woocommerce-form-login{
+                margin: 0 !important;
+                border: none;
+                display: flex !important;
+                flex-direction: column;
+                box-shadow: 0px 0px 10px #0564BF;
+                height: 450px;
+                justify-content: space-between;
+                @media screen and (max-width:991px) {
+                    height: 350px;
+                }
+                p{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .form-top{
+                    display: flex;
+                    flex-direction: column;
+                    .woocommerce-form-row{
+                        &:first-child{
+                            margin-bottom: 55px;
+                        }
+                    }
+                }
+                label{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    line-height: 22px;
+                    margin-bottom: 5px;
+                }
+                input{
+                    color: rgba(255,255,255,0.6);
+                    padding: 5px 10px;
+                    background: #070A20;
+                    border-bottom: 3px solid #0564BF;
+                    box-shadow: inset 0px 4px 4px rgba(5, 100, 191, 0.1);
+                    border-radius: 56px;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    padding: 5px 10px;
+                    .display-password{
+                            color: #000000 !important;
+                    }
+                }
+                .form-row{
+                    .woocommerce-form__label-for-checkbox{
+                        display: flex;
+                        input{
+                            margin-right: 10px;
+                            color: rgba(255,255,255,0.6);
+                            padding: 5px 10px;
+                            background: #070A20;
+                            border-bottom: 3px solid #0564BF;
+                            box-shadow: inset 0px 4px 4px rgba(5, 100, 191, 0.1);
+                            border-radius: 56px;
+                        }
+                    }
+                    button{
+                        color: black;
+                        box-shadow: 0px 24.5562px 32.7416px -14.7337px rgba(149, 149, 149, 0.25);
+                        background: #FFFFFF;
+                        border-radius: 4px;
+                    }
+                }
+                .lost_password{
+                    text-align: center;
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    a{
+                        color: #FFFFFF !important;
+                    }
+                }
+            }
+        }
+        .col-2{
+            width: 45% !important;
+            float: none;
+            @media screen and (max-width:991px){
+                width: 100% !important;
+            }
+            h2{
+                font-family: 'Nunito Sans', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                color: #FFFFFF;
+                font-size: 28px;
+                line-height: 34px;
+                margin-bottom: 30px;
+
+            }
+            .woocommerce-form-register{
+                border: none;
+                margin-top: 15px;
+                box-shadow: 0px 0px 10px #0564BF;
+                display: flex !important;
+                flex-direction: column;
+                height: 450px;
+                justify-content: space-between;
+                .woocommerce-form-row--wide{
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        margin-bottom: 10px;
+                    }
+                }
+                label{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+                input{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding: 5px 10px;
+                    color: rgba(255,255,255,0.6);
+                    padding: 5px 10px;
+                    background: #070A20;
+                    border-bottom: 3px solid #0564BF;
+                    box-shadow: inset 0px 4px 4px rgba(5, 100, 191, 0.1);
+                    border-radius: 56px;
+                    .display-password{
+                            color: #000000 !important;
+                    }
+                }
+                p{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    line-height: 22px;
+                }
+                .form-row{
+                    display: flex;
+                    margin: 0 !important;
+                    button{
+                        color: black;
+                        box-shadow: 0px 24.5562px 32.7416px -14.7337px rgba(149, 149, 149, 0.25);
+                        background: #FFFFFF;
+                        border-radius: 4px;
+                        padding: 10px 30px;
+                        width: 100%;
+                    }
+                }
+                .woocommerce-privacy-policy-text{
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.woocommerce-account{
+    .woocommerce{
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        @media screen and (max-width:991px) {
+            flex-direction: column;
+        }
+        .woocommerce-MyAccount-navigation{
+            width: 30%;
+            @media screen and (max-width:991px) {
+                width: 100%;
+            }
+            ul{
+                max-width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                li{
+                    display: flex;
+                    display: flex;
+                    padding: 15px 20px;
+                    margin-bottom: 10px;
+                    background: #070A20;
+                    border-bottom: 3px solid #0564BF;
+                    box-shadow: inset 0px 4px 4px rgba(5, 100, 191, 0.1);
+                    border-radius: 56px;
+                    width: 130px;
+                    @media screen and (max-width:991px) {
+                        width:auto;
+                    }
+                    a{
+                        color: #FFFFFF;
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        color: #FFFFFF;
+                        line-height: 22px;
+                        text-decoration: none;
+                        width: 100%;
+                    }
+                    &:last-child{
+                        box-shadow: 0px 24.5562px 32.7416px -14.7337px rgba(149, 149, 149, 0.25);
+                        background: #FFFFFF;
+                        a{
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+        .woocommerce-MyAccount-content{
+            width: 65%;
+            background: #070A20;
+            box-shadow: 0px 0px 120px rgba(5, 100, 191, 0.15);
+            border-radius: 23px;
+            position: relative;
+            padding: 10px 30px;
+            @media screen and (max-width:991px) {
+                width: auto;
+            }
+            p{
+                font-family: 'Nunito Sans', sans-serif;
+                white-space: pre-line;
+                font-weight: 400;
+                font-size: 16px;
+                color: #FFFFFF;
+                line-height: 22px;
+            }
+            a{
+                color: #0564BF;
+            }
+            table{
+                color: #FFFFFF;
+                thead{
+                    tr{
+                        th{
+                            font-family: 'Nunito Sans', sans-serif;
+                            white-space: pre-line;
+                            font-weight: 400;
+                            font-size: 18px;
+                            color: #FFFFFF;
+                            line-height: 22px;
+                            vertical-align: baseline !important;
+                        }
+                    }
+                }
+                tbody{
+                    tr{
+                        td{
+                            font-family: 'Nunito Sans', sans-serif;
+                            white-space: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #FFFFFF;
+                            line-height: 22px;
+                            &:nth-child(2){
+                                vertical-align: bottom !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .woocommerce_account_subscriptions{
+                .woocommerce-message--info{
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    right: 10px;
+                    font-family: 'Nunito Sans', sans-serif;
+                    white-space: pre-line;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #0564BF;
+                    line-height: 22px;
+                }
+            }
+            .woocommerce-Message{
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                font-family: 'Nunito Sans', sans-serif;
+                white-space: pre-line;
+                font-weight: 400;
+                font-size: 16px;
+                color: #0564BF;
+                line-height: 22px;
+            }
+            .woocommerce-Addresses{
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                max-width: none;
+                text-align:unset;
+                .woocommerce-Address{
+                    width: 100% !important;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 20px;
+                    header{
+                        font-family: 'Nunito Sans', sans-serif;
+                        white-space: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                        line-height: 22px;
+                    }
+                    address{
+                        white-space: pre-line;
+                        font-family: 'Nunito Sans', sans-serif;
+                        white-space: pre-line;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                        line-height: 22px;
+                    }
+                }
+            }
+            .woocommerce-EditAccountForm{
+                white-space: normal;
+                p{
+                    label{
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                        line-height: 22px;
+                    }
+                    input{
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: rgba(255,255,255,0.6);
+                        padding: 5px 10px;
+                        background: #070A20;
+                        border-bottom: 3px solid #0564BF;
+                        box-shadow: inset 0px 4px 4px rgba(5, 100, 191, 0.1);
+                        border-radius: 56px;
+                    }
+                }
+                fieldset{
+                    legend{
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 22px;
+                        color: #FFFFFF !important;
+                    }
+                }
+            }
+        }
+    }
+}

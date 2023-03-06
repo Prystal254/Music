@@ -26,16 +26,16 @@
             [
                 "name" => 'slick.theme.css',
                 "type" => 'css',
-                "path" => '    https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css',
+                "path" => 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css',
                 "version" => '1.0.0',
             ],
-            [
-                "name" => 'jquery.js', 
-                "type" => 'js',
-                "path" => 'https://code.jquery.com/jquery-3.3.1.min.js',
-                "version" => '3.3.1',
-                "loadInFooter" => false
-            ],
+            // [
+            //     "name" => 'jquery.js', 
+            //     "type" => 'js',
+            //     "path" => 'https://code.jquery.com/jquery-3.6.3.min.js',
+            //     "version" => '3.3.1',
+            //     "loadInFooter" => false
+            // ],
             [
                 "name" => 'slick.js',
                 "type" => 'js',

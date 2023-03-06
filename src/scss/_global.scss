@@ -3,6 +3,8 @@
     outline:none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
   }
   sup, sub {
     vertical-align: baseline;
@@ -16,7 +18,7 @@
 html, body { 
     margin:0;
     padding:0;
-  
+    background: #070A20;
     
   
 }

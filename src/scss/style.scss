@@ -36,6 +36,14 @@ Version: THEME_VERSION
 @import './Blocks/text-image.scss';
 @import './Blocks/tabs.scss';
 @import './Blocks/social-icons.scss';
+@import './Blocks/video-section.scss';
+@import './Blocks/cart.scss';
+@import './Blocks/form.scss';
+@import './Blocks/music-banner.scss';
+@import './Blocks/video-banner.scss';
+@import './Blocks/my-accounts.scss';
+@import './Blocks/checkout.scss';
+@import './Blocks/thankyou.scss';
 
 
 
@@ -47,6 +55,6 @@ Version: THEME_VERSION
 // Shortcodes
 
 
-table.xdebug-error.xe-warning {
-    display: none;
-}
+// table.xdebug-error.xe-warning {
+//     display: none;
+// }

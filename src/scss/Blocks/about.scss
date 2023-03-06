@@ -38,6 +38,7 @@
                 margin-top: 50px;
             }
             img{
+                width: 100%;
                 @media (max-width:950px){
                     max-width: 600px;
                     width: 100%;
@@ -59,9 +60,11 @@
             }
             p{
                 padding-right: 50px;
+                line-height: 24px;
                 @media (max-width:1600px){
                     padding-right: 0px;
                     font-size: 14px;
+                    line-height: 20px;
                 }
             }
             .heading{
