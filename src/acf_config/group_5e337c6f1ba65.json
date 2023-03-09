@@ -540,6 +540,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                "layout_640a25907b53c": {
+                    "key": "layout_640a25907b53c",
+                    "name": "music_links",
+                    "label": "Music Links",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_640a25977b53d",
+                            "label": "field",
+                            "name": "field",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "clone": [
+                                "group_640a253ef34d9"
+                            ],
+                            "display": "seamless",
+                            "layout": "block",
+                            "prefix_label": 0,
+                            "prefix_name": 0
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             },
             "button_label": "Add Block",
@@ -575,5 +606,5 @@
     ],
     "active": 1,
     "description": "Block Chooser for all content types that will have blocks.",
-    "modified": 1677526404
+    "modified": 1678386623
 }

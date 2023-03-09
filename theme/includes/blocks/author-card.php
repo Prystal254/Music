@@ -66,7 +66,7 @@ $product_tags = get_terms( 'product_tag', $args );
                                             $args = array(
                                                 'post_type' => 'product',
                                                 'orderby' => 'category',
-                                                'posts_per_page' => -1,
+                                                'posts_per_page' => 10,
                                                 'tax_query' => array(
                                                     array(
                                                         'taxonomy' => $category->taxonomy,

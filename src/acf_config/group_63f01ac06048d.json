@@ -60,27 +60,6 @@
             "maxlength": ""
         },
         {
-            "key": "field_6407ce80d9d9f",
-            "label": "Non Exclusive Price",
-            "name": "non_exclusive_price",
-            "type": "number",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "min": "",
-            "max": "",
-            "step": ""
-        },
-        {
             "key": "field_63f6c9f4dcbb3",
             "label": "Product Agreement",
             "name": "product_agreement",
@@ -117,5 +96,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1678233284
+    "modified": 1677882815
 }

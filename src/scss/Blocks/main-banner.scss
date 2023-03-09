@@ -193,10 +193,14 @@
                 font-family: 'Nunito Sans', sans-serif;
                 font-style: normal;
                 font-weight: 900;
-                font-size: 72px;
+                font-size: 56px;
+                margin-bottom: 20px;
                 color: #FFFFFF;
-                @media(max-width:1250px){
+                @media (max-width:1580px){
                     font-size: 45px;
+                }
+                @media(max-width:1224px){
+                    font-size: 40px;
                 }
                 @media(max-width:767px){
                     font-size: 34px;
@@ -214,6 +218,9 @@
                 color: #FFFFFF;
                 @media(max-width:768px){
                     font-size: 14px;         
+                }
+                ul{
+                    padding-left: 15px;
                 }
             }
             .sub-heading{

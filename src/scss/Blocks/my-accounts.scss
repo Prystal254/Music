@@ -286,6 +286,9 @@
                             color: #FFFFFF;
                             line-height: 22px;
                             vertical-align: baseline !important;
+                            &.download-remaining{
+                                display: none;
+                            }
                         }
                     }
                 }
@@ -298,6 +301,9 @@
                             font-size: 16px;
                             color: #FFFFFF;
                             line-height: 22px;
+                            &.download-remaining{
+                                display: none;
+                            }
                             // &:nth-child(2){
                             //     vertical-align: bottom !important;
                             // }

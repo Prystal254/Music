@@ -68,6 +68,9 @@
                                             case 'video_banner':
                                               include 'blocks/video_banner.php';
                                               break;
+                                              case 'music_links':
+                                                include 'blocks/music_links.php';
+                                                break;
             
           }
         }
