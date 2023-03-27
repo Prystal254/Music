@@ -47,7 +47,7 @@
             <?php }?>
         </div>  
         <div class="link-container">
-            <a href="<?php echo get_site_url(); ?>/music/#music-album"> <?php echo $block['album_link']['title'] ?></a>
+            <a href="<?php echo get_site_url(); ?>/beats/#beats"> <?php echo $block['album_link']['title'] ?></a>
         </div>
     </div>
 </section>

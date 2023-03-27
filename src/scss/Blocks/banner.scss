@@ -2,11 +2,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    position: relative;
     @media (max-width:1400px){
         padding: 0px 40px 0px;
     }
     @media (max-width:768px){
         padding: 0px 20px 0px;
+    }
+    .overlay{
+        position: absolute;
+        inset: 0;
+        background: rgba(4, 56, 104, 0.4);
     }
     .banner-container{
         max-width: 1400px;
@@ -14,6 +20,8 @@
         margin: 0 auto;
         padding-top: 150px;
         background-repeat: no-repeat;
+        position: relative;
+        z-index: 2222;
         @media (max-width:1400px){
             padding: 100px 0px 0px;
         }
@@ -24,7 +32,8 @@
                 font-weight: 900;
                 font-size: 72px;
                 line-height: 85px;
-                color: #070A20;
+                color: #FFFFFF;
+                //color: #070A20;
                 @media (max-width:900px){
                     font-size: 50px;
                 }
@@ -34,6 +43,9 @@
                 @media (max-width:576px){
                     font-size: 30px;
                 }
+                @media (max-width:380px){
+                    font-size: 28px;
+                }
                 
             }
             .text{
@@ -42,7 +54,8 @@
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 100%;
-                color: #070A20;
+                color: #FFFFFF;
+                //color: #070A20;
                 margin:  0px 300px;
                 @media (max-width:1050px){
                     margin:  0px 200px;

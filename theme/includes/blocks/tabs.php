@@ -23,9 +23,7 @@ $product_tags = get_terms( 'product_tag', $args );
 
 
 
-
-
-<section class="tabs-beats">
+<section class="tabs-beats" id="beats">
     <div class="container">
         <div class="heading">
             <h2><?php echo $block['heading'] ?></h2>
@@ -116,13 +114,13 @@ $product_tags = get_terms( 'product_tag', $args );
                                                             <a href=""><img src="<?php echo '/wp-content/uploads/2022/12/Facebook_black.png'; ?>"></a>
                                                         </div>
                                                         <div class="socials">
-                                                            <a href=""><img src="<?php echo '/wp-content/uploads/2022/12/Spotify_black.png'; ?>"></a>
+                                                            <a href="https://open.spotify.com/artist/29d0GjlUsXCMyJHwai202X?si=vd6eaU2VSRivGRhtXEoV6w"><img src="<?php echo '/wp-content/uploads/2022/12/Spotify_black.png'; ?>"></a>
                                                         </div>
                                                         <div class="socials">
                                                             <a href=""><img src="<?php echo '/wp-content/uploads/2022/12/Instagram_black.png'; ?>"></a>
                                                         </div>
                                                         <div class="socials">
-                                                            <a href=""><img src="<?php echo '/wp-content/uploads/2022/12/Youtube_black.png'; ?>"></a>
+                                                            <a href="https://www.youtube.com/channel/UCw8-EKoWuuXS1sMi4GMxu-w"><img src="<?php echo '/wp-content/uploads/2022/12/Youtube_black.png'; ?>"></a>
                                                         </div>
                                                 </div>
                                                 <div class="sound-waves">

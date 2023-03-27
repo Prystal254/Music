@@ -8,6 +8,11 @@
                 <div class="text">
                     <?php echo $about['text']?>
                 </div>
+                <?php if($about['button']){ ?>
+                    <div class="button">
+                        <a href="<?php echo $about['button']['url'] ?>"><?php echo $about['button']['title'] ?></a>
+                    </div>
+                <?php } ?>
             </div>
             <div class="image-container">
                 <img src="<?php echo $about['bigger_image']['url'];?>">

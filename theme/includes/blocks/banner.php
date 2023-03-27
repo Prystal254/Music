@@ -24,6 +24,7 @@
 
 
 <section class="banner" style="background-image: url('<?php echo $block['bg']['url']?>')">
+<div class="overlay"></div>
     <div class="banner-container">
         <div class="text-container">
             <div class="heading"><?php echo $block['heading']?></div>
@@ -32,7 +33,7 @@
         <div class="card">
             <div class="card-container">
                 <div class="image-container">
-                    <img class="card-image" src="<?php echo $block['card_image']['url']?>">
+                    <img class="card-image" src="<?php echo get_the_post_thumbnail_url($product_id); ?>">
                 </div>
                 <div class="content-container">
                     <div class="card-text-container">

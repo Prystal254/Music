@@ -5,6 +5,9 @@
         .inner-wrap{
             .music-links{
                 display: flex;
+                @media screen and (max-width: 767px) {
+                    flex-direction: column;
+                }
                 .songs{
                     margin-bottom: 5px;
                     flex: 0 0 33%;
