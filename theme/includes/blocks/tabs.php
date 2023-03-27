@@ -217,8 +217,8 @@ $(".button-container .play").click(function(){
             
         }
         var src = $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").attr("src");
-        $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").toggleClass("khsadkjhsad");
-        if($(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").hasClass("khsadkjhsad")){
+        $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").toggleClass("playwave");
+        if($(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").hasClass("playwave")){
             $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").attr("src", src.replace(/\.png$/i, ".gif"));
         } else {
             $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").attr("src", src.replace(/\.gif$/i, ".png"));

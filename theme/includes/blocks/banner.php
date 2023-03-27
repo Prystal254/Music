@@ -76,7 +76,7 @@
                             <?php } ?>
                         </div>
                         <div class="sound-waves">
-                            <img src="<?php echo $block['card_picture']['url']?>">
+                            <img src="<?php echo '/wp-content/uploads/2023/03/Gif-2.png';?>">
                         </div>
                     </div>
                 </div>
@@ -131,6 +131,7 @@
             
         }
     
+
     })
 
     $(".card .card-container .content-container .icon-container .button-container .buy").click(function(){
@@ -139,6 +140,18 @@
     $(".card .card-popup .popup-wrap .cross").click(function(){
         $(this).parents().find(".card-popup").removeClass("active");
     })
+
+
+    $(".banner .banner-container .card .card-container .content-container .icon-container .button-container .play").click(function(){
+        var src =  $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src");
+        $(this).parents(".button-container").siblings(".sound-waves").children("img").toggleClass("playwave");
+        if($(this).parents(".button-container").siblings(".sound-waves").children("img").hasClass("playwave")){
+            $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src", src.replace(/\.png$/i, ".gif"));
+        }else{
+            $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src", src.replace(/\.gif$/i, ".png"));
+        }
+    })
+
 
 
 </script>
