@@ -124,7 +124,7 @@ $product_tags = get_terms( 'product_tag', $args );
                                                         </div>
                                                 </div>
                                                 <div class="sound-waves">
-                                                    <img src="<?php echo '/wp-content/uploads/2022/12/Group-1000001529.png';?>">
+                                                    <img src="<?php echo '/wp-content/uploads/2023/03/Gif-2.png';?>">
                                                 </div>
                                             </div>
                                         </div>
@@ -216,7 +216,13 @@ $(".button-container .play").click(function(){
             audio[0].play();
             
         }
-    
+        var src = $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").attr("src");
+        $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").toggleClass("khsadkjhsad");
+        if($(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").hasClass("khsadkjhsad")){
+            $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").attr("src", src.replace(/\.png$/i, ".gif"));
+        } else {
+            $(this).parents(".card-text-container").siblings(".icon-container").children(".sound-waves").children("img").attr("src", src.replace(/\.gif$/i, ".png"));
+        }
     })
 
     
