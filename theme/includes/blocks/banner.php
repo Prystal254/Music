@@ -1,4 +1,5 @@
 <?php 
+
     $productID = $block['featured_product'];
     $product = wc_get_product($productID);
 
@@ -20,6 +21,7 @@
             break;
         }
     }
+
 ?>
 
 

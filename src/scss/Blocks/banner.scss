@@ -221,7 +221,9 @@
                                 }
                             }
                         .sound-waves{  
+                            width: 70%;
                             img{
+                                width: 100%;
                                 @media (max-width:1400px){
                                     // max-width: 877px;
                                     width: 100%;

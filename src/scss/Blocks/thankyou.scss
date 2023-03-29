@@ -26,6 +26,54 @@
                     }
                 }
             }
+            .woocommerce-order-downloads{
+                margin-top: 20px;
+                h2{
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 18px;
+                    line-height: 22px;
+                    text-decoration: underline;
+                    padding-bottom: 5px;
+                }
+                .woocommerce-table--order-downloads{
+                    thead{
+                        tr{
+                            th{
+                                border-bottom: 1px solid #FFFFFF;
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                                span{
+                                    .nobr{
+    
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    tbody{
+                        tr{
+                            td{
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                                &.download-product{
+                                    pointer-events: none;
+                                    a{
+                                        color: #0564BF;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             .woocommerce-order-details{
                 margin-top: 25px;
                 border-top: 1px solid #FFFFFF;
@@ -61,6 +109,7 @@
                                 line-height: 22px;
                                 a{
                                     color: #0564BF;
+                                    pointer-events: none;
                                 }
                             }
                         }

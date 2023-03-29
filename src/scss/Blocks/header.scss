@@ -151,6 +151,8 @@
         }
         @media (max-width:1300px){
             display: block;
+            position: relative;
+            z-index: 9999999;
         }
         .hamburger-close{
             display: none;
@@ -168,6 +170,7 @@
         height: 100vh;
         padding-top: 100px;
         transition: all 0.8s ease;
+        z-index: 99999;
         @media (max-width:767px){
             width: 100%;
             padding-top: 90px;
