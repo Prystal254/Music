@@ -32,8 +32,7 @@
                     </div>
                 <?php }?>
             </div>
-        </div>  
-
+        </div> 
   </div>  
    
     <div class="mobile-container">

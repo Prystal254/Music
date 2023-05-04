@@ -148,9 +148,9 @@
         var src =  $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src");
         $(this).parents(".button-container").siblings(".sound-waves").children("img").toggleClass("playwave");
         if($(this).parents(".button-container").siblings(".sound-waves").children("img").hasClass("playwave")){
-            $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src", src.replace(/\.png$/i, ".gif"));
+            $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src", "/wp-content/uploads/2023/03/Gif-2.gif");
         }else{
-            $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src", src.replace(/\.gif$/i, ".png"));
+            $(this).parents(".button-container").siblings(".sound-waves").children("img").attr("src", "/wp-content/uploads/2023/03/Gif-2.png");
         }
     })
 

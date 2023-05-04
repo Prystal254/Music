@@ -28,12 +28,12 @@
                             <audio src="<?php 
                                     if(is_user_logged_in()){
                                         if(has_purchased_product($user_id,$product_id)){
-                                            echo get_field('music_full', $product_id);
+                                            echo get_field('music_full', $music->ID);
                                         }else{
-                                            echo get_field('music_sample', $product_id);
+                                            echo get_field('music_sample', $music->ID);
                                         }
                                     }else{
-                                        echo get_field('music_sample', $product_id); 
+                                        echo get_field('music_sample', $music->ID); 
                                     }
                                 
                         ?>" id="audio"></audio>
